@@ -1,0 +1,11 @@
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+vegan::adonis2(formula = bray_dist ~ bmi_class, data = df, permutations = 999)
+           Df SumOfSqs      R2      F Pr(>F)    
+Model       3   0.0791 0.00579 18.824  0.001 ***
+Residual 9705  13.5878 0.99421                  
+Total    9708  13.6669 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
